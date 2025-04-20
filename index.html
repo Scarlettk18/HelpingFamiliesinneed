@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+        header {
+            background-color: #5910E5; /* Dark Purple */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #C3FF83; /* Lime Green */
+        }
+        header a {
+            color: #C3FF83;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section.services {
+            background-color: #222;
+            padding: 40px;
+            text-align: center;
+        }
+        section.services h2 {
+            color: #C3FF83;
+        }
+        section.services .service {
+            background-color: #333;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section.services .service h3 {
+            color: #C3FF83;
+        }
+        section.services .service p {
+            color: white;
+        }
+        form {
+            background-color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #5910E5; /* Dark Purple */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #C3FF83; /* Lime Green */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Your Business Name]</h1>
+        <p>Helping You Grow on Social Media</p>
+        <p>
+            <a href="https://www.instagram.com/youraccount">Instagram</a>
+            <a href="https://www.facebook.com/youraccount">Facebook</a>
+            <a href="https://www.twitter.com/youraccount">Twitter</a>
+        </p>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Social Media Strategy</h3>
+            <p>We create customized social media strategies to help you reach your target audience and grow your brand.</p>
+            <p><strong>Price:</strong> $200</p>
+        </div>
+        <div class="service">
+            <h3>Content Creation</h3>
+            <p>High-quality images and posts tailored to your business to engage your audience.</p>
+            <p><strong>Price:</strong> $150</p>
+        </div>
+        <div class="service">
+            <h3>Ad Campaign Management</h3>
+            <p>We set up and manage ad campaigns on platforms like Facebook and Instagram to drive sales and engagement.</p>
+            <p><strong>Price:</strong> $300</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/your-email" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
