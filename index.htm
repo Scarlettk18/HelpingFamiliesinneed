@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chosen Ones - Helping Families</title>
+    <style>
+        /* Color Palette */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1E2A47; /* Dark Purple */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #FF0000; /* Bright Red */
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #C3FF83; /* Lime Green */
+        }
+
+        header a {
+            color: #C3FF83;
+            margin: 0 15px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .services {
+            padding: 40px;
+            background-color: #1E2A47; /* Dark Purple */
+            text-align: center;
+        }
+
+        .services h2 {
+            color: #FF0000; /* Bright Red */
+            font-size: 2.2em;
+        }
+
+        .service {
+            background-color: #333;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        .service h3 {
+            color: #C3FF83; /* Lime Green */
+            font-size: 1.8em;
+        }
+
+        .service p {
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        .contact-form {
+            background-color: #1E2A47; /* Dark Purple */
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-form h2 {
+            color: #FF0000; /* Bright Red */
+            font-size: 2.2em;
+        }
+
+        .contact-form input, .contact-form select, .contact-form textarea {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #C3FF83;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .contact-form button {
+            background-color: #C3FF83;
+            color: #1E2A47; /* Dark Purple */
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        .contact-form button:hover {
+            background-color: #FF0000; /* Bright Red */
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1E2A47;
+            color: #C3FF83;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Chosen Ones</h1>
+    <p>Helping Families, One Day at a Time</p>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+</header>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service">
+        <h3>"Our Ideas and Beyond" (1.5-Hour Consultation)</h3>
+        <p>We’ll support you with practical steps and actionable solutions that will empower you to take control of your family’s journey.</p>
+        <p><strong>Cost:</strong> $350 per session</p>
+    </div>
+
+    <div class="service">
+        <h3>"Thinking Outside the Box" (One-Time Plan)</h3>
+        <p>We’ll work with you to develop a strategy that makes a lasting impact, whether it’s a new initiative or a roadmap for your family’s success.</p>
+        <p><strong>Cost:</strong> Starting at $2,500 per campaign</p>
+    </div>
+
+    <div class="service">
+        <h3>"We Come to You Directly" (Long-Term Partnership)</h3>
+        <p>We become part of your family, offering ongoing support and tailored strategies for success over the long term.</p>
+        <p><strong>Cost:</strong> Starting at $5,500 per month</p>
+    </div>
+</section>
+
+<section class="contact-form">
+    <h2>Contact Us—Join Our Family</h2>
+    <form action="https://formspree.io/f/maykbjyo" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <select name="service" required>
+            <option value="" disabled selected>Select Service</option>
+            <option value="consultation">Our Ideas and Beyond</option>
+            <option value="campaign">Thinking Outside the Box</option>
+            <option value="partnership">We Come to You Directly</option>
+        </select><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>Thank you for reaching out! We’ll get back to you within 1-3 business days. Looking forward to connecting with you!</p>
+</footer>
+
+</body>
+</html>
